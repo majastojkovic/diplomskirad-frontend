@@ -1,0 +1,54 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+
+.login-form, .register-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  margin: 10px;
+  text-align: center; /* Centriranje teksta */
+}
+
+.login-form h1, .register-form h1 {
+  margin-bottom: 20px;
+}
+
+.login-form label, .register-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.login-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-form .form-buttons {
+  display: flex;
+  justify-content: space-between; /* Razmak između dugmadi */
+}
+
+.login-form button {
+  width: 48%; /* Širina dugmadi */
+  padding: 10px;
+  background-color: #13471f;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form button:hover {
+  background-color: #555;
+}

@@ -1,0 +1,42 @@
+/* Stilizacija linka */
+.predikcija-link {
+  text-decoration: none; /* Uklanja podvlačenje */
+  color: #007BFF; /* Postavlja boju teksta */
+  font-weight: bold; /* Podebljava tekst */
+  padding: 10px 20px; /* Dodaje unutrašnji razmak */
+  border: 3px solid #007BFF; /* Dodaje okvir */
+  border-radius: 5px; /* Zaobljava uglove */
+  transition: background-color 0.3s, color 0.3s; /* Dodaje tranziciju za boje */
+}
+
+.predikcija-link:hover {
+  background-color: #007BFF; /* Boji pozadinu na hover */
+  color: #FFFFFF; /* Menja boju teksta na hover */
+}
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f0f0f0;
+  }
+  
+  .home-container h1 {
+    margin-bottom: 20px;
+  }
+  
+  .home-container a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .home-container a:hover {
+    background-color: #555;
+  }
+  
